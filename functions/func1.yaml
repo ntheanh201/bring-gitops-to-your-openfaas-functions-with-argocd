@@ -1,12 +1,9 @@
 apiVersion: openfaas.com/v1
 kind: Function
 metadata:
-  creationTimestamp: "2022-11-24T04:08:45Z"
   generation: 1
   name: demo
   namespace: openfaas-fn
-  resourceVersion: "177923"
-  uid: d6912dc7-c92d-42e5-b6ae-1c5ccfd55c1a
 spec:
   annotations: {}
   handler: node index.js
