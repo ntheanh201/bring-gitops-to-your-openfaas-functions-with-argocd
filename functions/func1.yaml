@@ -3,7 +3,7 @@ kind: Function
 metadata:
   creationTimestamp: "2022-11-24T04:08:45Z"
   generation: 1
-  name: func1
+  name: demo
   namespace: openfaas-fn
   resourceVersion: "177923"
   uid: d6912dc7-c92d-42e5-b6ae-1c5ccfd55c1a
@@ -12,5 +12,5 @@ spec:
   handler: node index.js
   image: ntheanh201/func1:latest
   labels: {}
-  name: func1
+  name: demo
   readOnlyRootFilesystem: false
